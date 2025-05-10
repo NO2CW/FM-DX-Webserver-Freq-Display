@@ -1,8 +1,8 @@
 // Plugin configuration, this is used in the administration when plugins are loaded
 var pluginConfig = {
-    name: 'Frequency Display',
+    name: 'Frequency Display Plugin',
     version: '1.0',
-    author: 'Ivan NO2CW',
+    author: 'OpenRadio',
     frontEndPath: 'frequency-display-plugin/frequency-display-plugin.js'
 }
 
