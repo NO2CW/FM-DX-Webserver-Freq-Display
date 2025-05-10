@@ -1,9 +1,19 @@
-# FM-DX-Webserver-Freq-Display
-FM DX Webserver
-This plugin replaces the frequency displayed with png files that represent the frequency. it wllows the use of creative frequency display without the use of special fonts. 
-The files that are part of this plugin are as follows:
-(1) plugins/frequency-display-plugin.js
-(2) Plugins/frequency-display-plugin/frequency-display-plugin.js
-(3) 11 png files representing the numbers from zero to 9 plus a decimal digit dot (or comma) 
-Each of these digit files needs to have a png extension and for a better fit not have a background. the name of each file should be the actual number: 0.png, 1.png, 2.png etc ending with dot.png
-The current code assumes that the 11 png files will be placed in the following folder: /web/images3   The js file can easily be modified to look for these files elsewhere in a folder or to retrieve them from an online location. 11 sample files have been provided.
+# FM DX Webserver – Frequency Display Plugin
+
+This plugin customizes how frequencies are displayed on the FM DX Webserver by replacing standard text with PNG image files representing digits. It allows for a more creative, font-independent frequency display.
+
+## 🔧 Files Included:
+1. `plugins/frequency-display-plugin.js`  
+2. `plugins/frequency-display-plugin/frequency-display-plugin.js`  
+3. **11 PNG image files** for digits 0–9 and a decimal point (or comma), named:  
+   - `0.png`, `1.png`, ..., `9.png`, `dot.png` (or `comma.png`)  
+
+## 📁 Expected Folder Structure:
+- Place the digit PNG files in: `/web/images3`  
+- Each PNG should have a transparent background for better visual fit.  
+- Place the two `.js` files in the standard location for plugins (`/plugins` and `/plugins/frequency-display-plugin/`), as is commonly done for all FM DX Webserver plugins.
+
+## ⚙️ Customization:
+The plugin's JavaScript file can be easily edited to change the image path or load images from an online source.
+
+A set of sample digit images is included.
